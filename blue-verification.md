@@ -19,6 +19,20 @@ sure you record them as well for the discussion.
   - Open the detection verfication document we prepared for you
   - This will be the place to track and document your verification as well as record any high-level findings you may have
 
+### Sentinel Preparation and Hints
+- First, a little refresher on Microsoft Sentinel :snowflake: :snowflake: :snowflake:
+- To do the verification in the Splunk web UI
+  - Log in to https://portal.azure.com with your workshop user accounts
+  - Use `Search resources, services, and docs` at the top of the screen to search for Microsoft Sentinel
+  - Choose the available log analytics workspace (name format `ar-sentinel-root-XXXXX-ar`)
+  - Navigate to `Incidents`
+![images/sentinel_incidents_screen.png](images/sentinel_incidents_screen.png "Sentinel Incidents Screen")
+- To distinguish new from previous incidents, you can assign the reviewed ones the status `Closed` and add a comment with the format `Part...` to map them to the corresponding part of the emulation
+  - In the `Incidents` view, click any incidents, opening a side panel showing the incident details
+  - Click on the `Status` field at the top of the side panel and choose `Closed` as the new stats
+  - Press `Apply` to close the incident
+  - By default, Sentinel filters out incidents with status `Closed` which can be changed using the `Status` filter on top of the incidents table
+
 ### Splunk Preparation and Hints
 - First, a little refresher on Splunk :snowflake: :snowflake: :snowflake:
 - To do the verification in the Splunk web UI
