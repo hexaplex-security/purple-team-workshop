@@ -22,7 +22,7 @@ sure you record them as well for the discussion.
 ### Sentinel Preparation and Hints
 - First, a little refresher on Microsoft Sentinel :snowflake: :snowflake: :snowflake:
 - To do the verification in the Sentinel UI
-  - Log in to https://portal.azure.com with your workshop user accounts
+  - Log in to the [Azure Portal](https://portal.azure.com) with your workshop user accounts
   - Use `Search resources, services, and docs` at the top of the screen to search for Microsoft Sentinel
   - Choose the available log analytics workspace (name format `ar-sentinel-root-XXXXX-ar`)
   - Navigate to `Incidents`

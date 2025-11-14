@@ -18,8 +18,7 @@
   - Share/unshare your screen
 
 ## Setup
-- You will get pop-ups, offers to take a Splunk tour or upgrade Enterprise Security and error messages - just klick them "away"
-- The exercise will be done in Splunk Attack Range (SAR) hosted in AWS which consists of the attacked environment, a Kali Linux VM and a Splunk VM
+- The exercise will be done in a Sentinel Attack Range (SAR) hosted in Azure which consists of the attacked environment, a Kali Linux VM and Microsoft Sentinel as SIEM solution
 - We have one SAR instance per table so you will need to coordinate some steps during emulation to not produce conflicts
 - All activities can be performed using your browser
 
@@ -63,10 +62,12 @@
   - Press `Shift` + `Ctrl` + `Alt` again to hide the menu again and return to the desktop
 - As a second alternative you can also use https://yopad.eu to transfer the commands between your computer and the lab VMs
 
-### Access Splunk
-- Open the link to Splunk and log in using the information provided by the workshop team
-- Splunk can be used by all participants concurrently
-- You will be using Splunk troughout the workshop so keep it open
+### Access Sentinel
+- Open the link to the [Azure Portal](https://portal.azure.com) and log in using the information provided by the workshop team
+- Use `Search resources, services, and docs` at the top of the screen to search for Microsoft Sentinel
+- Choose the available log analytics workspace (name format `ar-sentinel-root-XXXXX-ar`) to get to the Sentinel UI
+- Sentinel can be used by all participants concurrently
+- You will be using Sentinel troughout the workshop so keep it open
 
 ### Detailed Intro from each Workshop Track
 - CTI
