@@ -65,11 +65,14 @@ sure you record them as well for the discussion.
 - If you have multiple detections or multiple emulation steps with the same technique in the `Incidents` table
   - Check the name of the incident for hints as well as the triggered analytics rule
   - Open the specific incident in the sidebar and click the link to `Events` under `Evidence`
+  - This will take you to the original log entries which triggered the analytics rule
+  - Open the individual log entries to check the `CommandLine` field identifying what exactly was executed on the command line
 
 ![images/sentinel_incident_evidence_events.png](images/sentinel_incident_evidence_events.png "Sentinel Incident Evidence")
   
-  - This will take you to the original log entries which triggered the analytics rule
-  - Open the individual log entries to check the `CommandLine` field identifying what exactly was executed on the command line
+- If you ever come across the following screen, hit F5 to refresh the page:
+
+![images/sentinel_defender_moved.png](images/sentinel_defender_moved.png "Sentinel Tables")
 
 ### Incidents from the Emulation
 
