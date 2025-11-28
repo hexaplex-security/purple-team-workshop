@@ -63,8 +63,8 @@
 - As a second alternative you can also use https://yopad.eu to transfer the commands between your computer and the lab VMs
 
 ### Access Sentinel
-[!WARNING]
-Test
+> [!NOTE]
+> **Password change is enforced at first login**. Change the password and write it down so you don't forget. 
 - Open the link to the [Azure Portal](https://portal.azure.com) and log in using the information provided by the workshop team
 - Use `Search resources, services, and docs` at the top of the screen to search for Microsoft Sentinel
 - Choose the available log analytics workspace (name format `ar-sentinel-root-XXXXX-ar`) to get to the Sentinel UI
