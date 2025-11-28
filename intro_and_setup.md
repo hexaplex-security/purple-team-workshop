@@ -66,6 +66,7 @@
 > [!NOTE]
 > **Password change is enforced at first login**. Change the password and write it down so you don't forget. 
 - Open the link to the [Azure Portal](https://portal.azure.com) and log in using the information provided by the workshop team
+- Register and enable MFA
 - Use `Search resources, services, and docs` at the top of the screen to search for Microsoft Sentinel
 - Choose the available log analytics workspace (name format `ar-sentinel-root-XXXXX-ar`) to get to the Sentinel UI
 - Sentinel can be used by all participants concurrently
