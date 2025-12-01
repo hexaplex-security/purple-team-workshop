@@ -37,10 +37,10 @@ The main [SIGMA rule repo](https://github.com/SigmaHQ/sigma/tree/master) can be 
 ### Our Posture from Blue/CTI Perspective
 - We have 3 Windows 2019 servers as attack targets
 - The servers have standard OS controls (e.g. user permissions) and Microsoft Defender AV as preventive controls
-- We have Splunk with a few detections we mostly took from the Sigma repo
+- We have Sentinel with a few detections we mostly took from the Sigma repo
 - Detection is based on Windows OS logs and Sysmon the configuration of both have been extended/customized
 - Some Windows advanced auditing and PowerShell script block logging is activated
-- The log/telemetry data is selectively forwarded via the Splunk universal forwarder
+- The log/telemetry data is selectively forwarded via the Sentinel universal forwarder
 
 ### Reasons to do a Purple Team Exercise
 - Know/verify posture (detect and prevent)
@@ -73,7 +73,7 @@ The main [SIGMA rule repo](https://github.com/SigmaHQ/sigma/tree/master) can be 
 
 ### Analyse and Define what to Cover
 
-If you want you can open all lab layers directly in [Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FCISA_2024_AA24-131A-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS1070-BlackBasta-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS0029-PsExec-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS0154-CobaltStrike-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS0190-BITSAdmin-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS0650-QakBot-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS1040-Rclone-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2Fcumulated_black_basta_ttps.json) - **Note**: You may want to open it in a new browser tab
+If you want you can open all lab layers directly in [Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fhexaplex-security%2Fpurple-team-workshop%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FCISA_2024_AA24-131A-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fhexaplex-security%2Fpurple-team-workshop%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS1070-BlackBasta-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fhexaplex-security%2Fpurple-team-workshop%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS0029-PsExec-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fhexaplex-security%2Fpurple-team-workshop%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS0154-CobaltStrike-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fhexaplex-security%2Fpurple-team-workshop%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS0190-BITSAdmin-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fhexaplex-security%2Fpurple-team-workshop%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS0650-QakBot-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fhexaplex-security%2Fpurple-team-workshop%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2FS1040-Rclone-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fhexaplex-security%2Fpurple-team-workshop%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fred%2Fcumulated_black_basta_ttps.json) - **Note**: You may want to open it in a new browser tab
 
 - Combine the different Navigator layers and decide what to include based on e.g.:
   - Relevance to business and environment (e.g. do we use Linux)

@@ -41,7 +41,7 @@ sure you record them as well for the discussion.
 - An alternative way is to explicitly set a time frame
   - Click on the drop-down menu labeled with the chosen time frame, by default `Last 24 hours`
   - Specify th relative or absolute time frame by either choosing a preset time frame or entering a custom one
-- Get a list of all relevant Splunk detections
+- Get a list of all relevant Sentinel detections
   - Navigate to `Analytics` in the left sidebar
   - All configured analytics rules will appear in the list and can be filtered using the filter in the top section
 
@@ -119,7 +119,7 @@ To perform this task go through each emulation step chronologically and do the f
 - Detections that are [configured vs. that triggered](resources/cti/purple/configured_vs_triggered.json)
 - Detections that [triggered and are used by Black Basta](resources/cti/purple/black_basta_detection_coverage.json)
 
-..or open them directly in [Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fpurple%2Fconfigured_vs_triggered.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fpurple%2Fblack_basta_detection_coverage.json)
+..or open them directly in [Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fhexaplex-security%2Fpurple-team-workshop%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fpurple%2Fconfigured_vs_triggered.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fhexaplex-security%2Fpurple-team-workshop%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fpurple%2Fblack_basta_detection_coverage.json)
 
 ## More Ways to Leverage ATT&CK
 

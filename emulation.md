@@ -6,9 +6,9 @@
 - For the purple team exercise we need to define one red team lead who will do the emulation **Steps in Kali Linux, please define that person now
 - During emulation the others watch the actions performed and assist the acting red teamer of their table team
 - Define one blue lead who will coordinate the table's blue verification and documentation activites
-- All participants can use Splunk and Google Documents in parallel so you can cooperate in the blue team verification tasks
+- All participants can use Sentinel and Google Documents in parallel so you can cooperate in the blue team verification tasks
 - We will perform the attack simulation in multiple stages always first red and then blue
-- After running through the emulation steps it will take up to 5' for the detection events to show up in Splunk as "notables"
+- After running through the emulation steps it will take up to 5' for the detection events to show up in Sentinel as "notables"
 - We will not actually do IR but feel free to discuss blue IR actions as time permits
 
 ## Setup
