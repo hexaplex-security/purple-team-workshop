@@ -3,7 +3,7 @@
 - Aim is to demonstrate the workflow of a threat informed purple team exercise from CTI to red to blue to identifying improvements
 - If you have questions or run into problems ask the moderators/facilitators for help
 
-:bulb: Short intro to the lab environment
+# Your lab environment
 
 ![ATTACKRANGE setup](<images/PurpleSAR setup.png>)
 
@@ -76,7 +76,7 @@
 - Sentinel can be used by all participants concurrently
 - You will be using Sentinel troughout the workshop so keep it open
 
-### What is a purple team exercise and why do one?
+### What is a purple team exercise and why do one
 
 :question: :question: :question:
 
