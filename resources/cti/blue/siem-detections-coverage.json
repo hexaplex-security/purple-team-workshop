@@ -1,6 +1,6 @@
 {
     "version": "4.5",
-    "name": "Splunk Detections",
+    "name": "Sentinel Detections",
     "domain": "enterprise-attack",
     "techniques": [
         {
