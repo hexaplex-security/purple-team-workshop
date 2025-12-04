@@ -42,6 +42,8 @@ The main [SIGMA rule repo](https://github.com/SigmaHQ/sigma/tree/master) can be 
 - Some Windows advanced auditing and PowerShell script block logging is activated
 - The log/telemetry data is selectively forwarded via the Splunk universal forwarder
 
+If you want you can open all lab layers directly in [Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fblue%2FnM1049-enterprise-layer.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fblue%2Fsysmon-modular.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fblue%2Fnsiem-detections-coverage.json&layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Ftscomm99%2Fpurple-team-workshop-2025-01%2Frefs%2Fheads%2Fmain%2Fresources%2Fcti%2Fblue%2Fcumulated_detections_and_preventions.json) - **Note**: You may want to open it in a new browser tab
+
 ### Reasons to do a Purple Team Exercise
 - Know/verify posture (detect and prevent)
 - Know/verify potential threat impact
