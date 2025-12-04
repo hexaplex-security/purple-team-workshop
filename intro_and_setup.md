@@ -21,7 +21,7 @@
   - Join/leave the breakout room or separate meeting of your table
   - Share/unshare your screen
 
-## Setup
+# Setup
 - The exercise will be done in a Sentinel Attack Range (SAR) hosted in Azure which consists of the attacked environment, a Kali Linux VM and Microsoft Sentinel as SIEM solution
 - We have one SAR instance per table so you will need to coordinate some steps during emulation to not produce conflicts
 - All activities can be performed using your browser
@@ -76,11 +76,11 @@
 - Sentinel can be used by all participants concurrently
 - You will be using Sentinel troughout the workshop so keep it open
 
-### What is a purple team exercise and why do one
+# What is a purple team exercise and why do one
 
 :question: :question: :question:
 
-### Detailed Intro from each Workshop Track
+# Detailed Intro from each Workshop Track
 - CTI
 - Red emulation
 - Blue verification
