@@ -41,6 +41,7 @@ The main [SIGMA rule repo](https://github.com/SigmaHQ/sigma/tree/master) can be 
 - Detection is based on Windows OS logs and Sysmon the configuration of both have been extended/customized
 - Some Windows advanced auditing and PowerShell script block logging is activated
 - The log/telemetry data is selectively forwarded via the Sentinel universal forwarder
+- If you want you can later download the blue [ATT&CK layers](resources/cti/blue) and overlay them with the red layers to select the set of red layers to use for creating the emulation plan
 
 ### Reasons to do a Purple Team Exercise
 - Know/verify posture (detect and prevent)
