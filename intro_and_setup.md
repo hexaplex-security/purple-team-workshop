@@ -3,6 +3,10 @@
 - Aim is to demonstrate the workflow of a threat informed purple team exercise from CTI to red to blue to identifying improvements
 - If you have questions or run into problems ask the moderators/facilitators for help
 
+:bulb: Short intro to the lab environment
+
+![ATTACKRANGE setup](<images/PurpleSAR setup.png>)
+
 # How to Work in your Table Team
 - You can follow along either in the meeting screen share of the moderator or the one you/your table mates share in your break-out room/meeting
 - CTI, red and blue labs are all demonstrated by the moderator and you can follow along
@@ -71,6 +75,10 @@
 - Choose the available log analytics workspace (name format `ar-sentinel-root-XXXXX-ar`) to get to the Sentinel UI
 - Sentinel can be used by all participants concurrently
 - You will be using Sentinel troughout the workshop so keep it open
+
+### What is a purple team exercise and why do one?
+
+:question: :question: :question:
 
 ### Detailed Intro from each Workshop Track
 - CTI
