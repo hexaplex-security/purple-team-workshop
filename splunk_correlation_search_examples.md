@@ -50,9 +50,9 @@ Once the events are aggregated, a simple correlation search becomes "easy" and c
 - for the last 1h? (taking into account the delays due to ingestion and other pipelines)
 - for the last 24h?
 - for the last 7d?
-- # of entities per search?
-- # of different searches per entity?
-- # of events per entity?
+- number of entities per search?
+- number of different searches per entity?
+- number of events per entity?
 
 ```
 index="notables_endpoint_hackingtool" 
