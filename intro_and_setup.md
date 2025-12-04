@@ -78,7 +78,9 @@
 
 # What is a purple team exercise and why do one
 
-:question: :question: :question:
+- :question:
+- :question:
+- :question:
 
 # Detailed Intro from each Workshop Track
 - CTI
