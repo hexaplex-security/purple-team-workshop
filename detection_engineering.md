@@ -226,6 +226,7 @@ Later on, try and move up the pyramid based on the behaviors:
 
 ### BETA - RMM hunting - loading an external data set
 [LOLRMM CSV holds information about the RMM seen in the wild](https://lolrmm.io/api/rmm_tools.csv). Try and use this as an example for things to block, or consider controlling within your environment. Threat actors use signed software and RMMs for their intrusions and the presence of such tools must be legitimate. 
+Similarly, the LOLBAS project has a list of utilities organized in a CSV file. [LOLBAS CSV](https://lolbas-project.github.io/api/lolbas.csv)
 ```
 Event 
 | where EventID == 1
