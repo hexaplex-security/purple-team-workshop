@@ -233,7 +233,7 @@ Event
 | mv-expand Data = EventXml.DataItem.EventData.Data
 | extend Name = tostring(Data["@Name"]), Value = tostring(Data["#text"])
 | summarize EventDataBag = make_bag(pack(Name, Value)) by TimeGenerated, Computer, EventID, EventLog
-|where EventDataBag.OriginalFilename has_any (externaldata(Name:string,Category:string,Description:string,Author:string,Created:string,LastModified:string,Website:string,Filename:string,OriginalFileName:string,PEDescription:string,Product:string,Privileges:string,Free:string,Verification:string,SupportedOS:string,Capabilities:string,Vulnerabilities:string,InstallationPaths:string,Artifacts:string,Detections:string,References:string,Acknowledgement:string)
+| where EventDataBag has_any (externaldata(Name:string,Category:string,Description:string,Author:string,Created:string,LastModified:string,Website:string,Filename:string,OriginalFileName:string,PEDescription:string,Product:string,Privileges:string,Free:string,Verification:string,SupportedOS:string,Capabilities:string,Vulnerabilities:string,InstallationPaths:string,Artifacts:string,Detections:string,References:string,Acknowledgement:string)
 [
     @"https://lolrmm.io/api/rmm_tools.csv"
 ]
