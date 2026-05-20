@@ -2,9 +2,16 @@
   "description": "Enterprise techniques used by QakBot, ATT&CK software S0650 (v1.3)",
   "name": "QakBot (S0650)",
   "domain": "enterprise-attack",
-  "versions": { "layer": "4.5", "attack": "18", "navigator": "5.2.0" },
+  "versions": {
+    "layer": "4.5",
+    "attack": "19",
+    "navigator": "5.3.2"
+  },
   "techniques": [
-    { "techniqueID": "T1071", "showSubtechniques": true },
+    {
+      "techniqueID": "T1071",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1071.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) has the ability to use HTTP and HTTPS in communication with C2 servers.(Citation: Trend Micro Qakbot May 2020)(Citation: Crowdstrike Qakbot October 2020)(Citation: Kaspersky QakBot September 2021)",
@@ -19,7 +26,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1547", "showSubtechniques": true },
+    {
+      "techniqueID": "T1547",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1547.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can maintain persistence by creating an auto-run Registry key.(Citation: Trend Micro Qakbot May 2020)(Citation: Crowdstrike Qakbot October 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Group IB Ransomware September 2020)",
@@ -41,7 +51,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1059", "showSubtechniques": true },
+    {
+      "techniqueID": "T1059",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1059.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can use PowerShell to download and execute payloads.(Citation: Group IB Ransomware September 2020)",
@@ -70,7 +83,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1543", "showSubtechniques": true },
+    {
+      "techniqueID": "T1543",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1543.003",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can remotely create a temporary service on a target host.(Citation: NCC Group Black Basta June 2022)",
@@ -78,7 +94,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1555", "showSubtechniques": true },
+    {
+      "techniqueID": "T1555",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1555.003",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) has collected usernames and passwords from Firefox and Chrome.(Citation: Kaspersky QakBot September 2021)",
@@ -86,7 +105,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1132", "showSubtechniques": true },
+    {
+      "techniqueID": "T1132",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1132.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can Base64 encode system information sent to C2.(Citation: Crowdstrike Qakbot October 2020)(Citation: Kaspersky QakBot September 2021)",
@@ -101,7 +123,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1074", "showSubtechniques": true },
+    {
+      "techniqueID": "T1074",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1074.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) has stored stolen emails and other data into new folders prior to exfiltration.(Citation: Kroll Qakbot June 2020)",
@@ -117,13 +142,23 @@
       "showSubtechniques": false
     },
     {
+      "techniqueID": "T1685",
+      "comment": "[QakBot](https://attack.mitre.org/software/S0650) has the ability to modify the Registry to add its binaries to the Windows Defender exclusion list.(Citation: Group IB Ransomware September 2020)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": false
+    },
+    {
       "techniqueID": "T1482",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can run nltest /domain_trusts /all_trusts for domain trust discovery.(Citation: Kaspersky QakBot September 2021)",
       "score": 1,
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1568", "showSubtechniques": true },
+    {
+      "techniqueID": "T1568",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1568.002",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can use domain generation algorithms in C2 communication.(Citation: Trend Micro Qakbot May 2020)",
@@ -131,7 +166,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1114", "showSubtechniques": true },
+    {
+      "techniqueID": "T1114",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1114.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can target and steal locally stored emails to support thread hijacking phishing campaigns.(Citation: Kroll Qakbot June 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Kaspersky QakBot September 2021)",
@@ -139,7 +177,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1573", "showSubtechniques": true },
+    {
+      "techniqueID": "T1573",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1573.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can RC4 encrypt strings in C2 communication.(Citation: Kaspersky QakBot September 2021)",
@@ -168,7 +209,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1564", "showSubtechniques": true },
+    {
+      "techniqueID": "T1564",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1564.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) has placed its payload in hidden subdirectories.(Citation: Trend Micro Black Basta October 2022)",
@@ -176,23 +220,21 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1574", "showSubtechniques": true },
     {
-      "techniqueID": "T1574.002",
+      "techniqueID": "T1574",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1574.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) has the ability to use DLL side-loading for execution.(Citation: Deep Instinct Black Basta August 2022)",
       "score": 1,
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1562", "showSubtechniques": true },
     {
-      "techniqueID": "T1562.001",
-      "comment": "[QakBot](https://attack.mitre.org/software/S0650) has the ability to modify the Registry to add its binaries to the Windows Defender exclusion list.(Citation: Group IB Ransomware September 2020)",
-      "score": 1,
-      "color": "#66b1ff",
+      "techniqueID": "T1070",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1070", "showSubtechniques": true },
     {
       "techniqueID": "T1070.004",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can delete folders and files including overwriting its executable with legitimate programs.(Citation: Kroll Qakbot June 2020)(Citation: Crowdstrike Qakbot October 2020)(Citation: ATT QakBot April 2021)(Citation: Group IB Ransomware September 2020)",
@@ -207,7 +249,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1056", "showSubtechniques": true },
+    {
+      "techniqueID": "T1056",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1056.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can capture keystrokes on a compromised host.(Citation: Kroll Qakbot June 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Kaspersky QakBot September 2021)",
@@ -215,7 +260,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1036", "showSubtechniques": true },
+    {
+      "techniqueID": "T1036",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1036.008",
       "comment": "The [QakBot](https://attack.mitre.org/software/S0650) payload has been disguised as a PNG file and hidden within LNK files using a Microsoft File Explorer icon.(Citation: Group IB Ransomware September 2020)(Citation: Trend Micro Black Basta October 2022)",
@@ -306,7 +354,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1069", "showSubtechniques": true },
+    {
+      "techniqueID": "T1069",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1069.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can use net localgroup to enable discovery of local groups.(Citation: Kaspersky QakBot September 2021)(Citation: Trend Micro Black Basta October 2022)",
@@ -314,7 +365,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1566", "showSubtechniques": true },
+    {
+      "techniqueID": "T1566",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1566.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) has spread through emails with malicious attachments.(Citation: Trend Micro Qakbot May 2020)(Citation: Kroll Qakbot June 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Cyberint Qakbot May 2021)(Citation: ATT QakBot April 2021)(Citation: Kaspersky QakBot September 2021)(Citation: Group IB Ransomware September 2020)(Citation: Deep Instinct Black Basta August 2022)(Citation: Microsoft Ransomware as a Service)",
@@ -356,7 +410,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1090", "showSubtechniques": true },
+    {
+      "techniqueID": "T1090",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1090.002",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) has a module that can proxy C2 communications.(Citation: Kaspersky QakBot September 2021)",
@@ -378,7 +435,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1053", "showSubtechniques": true },
+    {
+      "techniqueID": "T1053",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1053.005",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) has the ability to create scheduled tasks for persistence.(Citation: Trend Micro Qakbot May 2020)(Citation: Kroll Qakbot June 2020)(Citation: Crowdstrike Qakbot October 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Red Canary Qbot)(Citation: Cyberint Qakbot May 2021)(Citation: Kaspersky QakBot September 2021)(Citation: Group IB Ransomware September 2020)",
@@ -406,7 +466,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1553", "showSubtechniques": true },
+    {
+      "techniqueID": "T1553",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1553.002",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can use signed loaders to evade detection.(Citation: ATT QakBot April 2021)(Citation: Deep Instinct Black Basta August 2022)\n",
@@ -421,7 +484,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1218", "showSubtechniques": true },
+    {
+      "techniqueID": "T1218",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1218.007",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can use MSIExec to spawn multiple cmd.exe processes.(Citation: Crowdstrike Qakbot October 2020)",
@@ -484,7 +550,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1204", "showSubtechniques": true },
+    {
+      "techniqueID": "T1204",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1204.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) has gained execution through users opening malicious links.(Citation: Trend Micro Qakbot May 2020)(Citation: Kroll Qakbot June 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: ATT QakBot April 2021)(Citation: Kaspersky QakBot September 2021)(Citation: Group IB Ransomware September 2020)(Citation: Trend Micro Black Basta October 2022)\n",
@@ -499,7 +568,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1497", "showSubtechniques": true },
+    {
+      "techniqueID": "T1497",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1497.001",
       "comment": "[QakBot](https://attack.mitre.org/software/S0650) can check the compromised host for the presence of multiple executables associated with analysis tools and halt execution if any are found.(Citation: Trend Micro Qakbot May 2020)(Citation: ATT QakBot April 2021)",
@@ -523,9 +595,17 @@
     }
   ],
   "gradient": {
-    "colors": ["#ffffff", "#66b1ff"],
+    "colors": [
+      "#ffffff",
+      "#66b1ff"
+    ],
     "minValue": 0,
     "maxValue": 1
   },
-  "legendItems": [{ "label": "used by QakBot", "color": "#66b1ff" }]
+  "legendItems": [
+    {
+      "label": "used by QakBot",
+      "color": "#66b1ff"
+    }
+  ]
 }

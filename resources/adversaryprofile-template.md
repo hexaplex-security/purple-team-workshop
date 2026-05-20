@@ -57,7 +57,8 @@ Please feel free to duplicate lines as needed. Not all tactics need to be presen
 | Execution | xxx | xxx | xxx | xxx |
 | Persistence | xxx | xxx | xxx | xxx |
 | Privilege Escalation | xxx | xxx | xxx | xxx |
-| Defense Evasion | xxx | xxx | xxx | xxx |
+| Stealth | xxx | xxx | xxx | xxx |
+| Defense Impairment | xxx | xxx | xxx | xxx |
 | Credential Access | xxx | xxx | xxx | xxx |
 | Discovery | xxx | xxx | xxx | xxx |
 | Lateral Movement | xxx | xxx | xxx | xxx |

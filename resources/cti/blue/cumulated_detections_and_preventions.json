@@ -1,6 +1,10 @@
 {
   "name": "Cumulated Detections and Preventions",
-  "versions": { "layer": "4.5", "attack": "18", "navigator": "5.2.0" },
+  "versions": {
+    "layer": "4.5",
+    "attack": "19",
+    "navigator": "5.2.0"
+  },
   "domain": "enterprise-attack",
   "description": "",
   "filters": {
@@ -97,7 +101,7 @@
     },
     {
       "techniqueID": "T1564",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -108,7 +112,7 @@
     },
     {
       "techniqueID": "T1564.012",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -119,7 +123,7 @@
     },
     {
       "techniqueID": "T1036",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -130,7 +134,7 @@
     },
     {
       "techniqueID": "T1036.008",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -141,7 +145,7 @@
     },
     {
       "techniqueID": "T1027",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -152,7 +156,7 @@
     },
     {
       "techniqueID": "T1027.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -163,7 +167,7 @@
     },
     {
       "techniqueID": "T1027.009",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -174,7 +178,7 @@
     },
     {
       "techniqueID": "T1027.010",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -185,7 +189,7 @@
     },
     {
       "techniqueID": "T1027.012",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -196,7 +200,7 @@
     },
     {
       "techniqueID": "T1027.013",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -207,7 +211,7 @@
     },
     {
       "techniqueID": "T1027.014",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -262,7 +266,7 @@
     },
     {
       "techniqueID": "T1221",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -360,17 +364,6 @@
       "showSubtechniques": false
     },
     {
-      "techniqueID": "T1562.001",
-      "tactic": "defense-evasion",
-      "score": 1,
-      "color": "",
-      "comment": "",
-      "enabled": true,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
       "techniqueID": "T1558",
       "tactic": "credential-access",
       "score": 1,
@@ -394,7 +387,7 @@
     },
     {
       "techniqueID": "T1036.003",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -438,7 +431,7 @@
     },
     {
       "techniqueID": "T1070",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -471,7 +464,7 @@
     },
     {
       "techniqueID": "T1078",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -515,7 +508,7 @@
     },
     {
       "techniqueID": "T1197",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -559,7 +552,10 @@
     }
   ],
   "gradient": {
-    "colors": ["#ffffffff", "#66b1ffff"],
+    "colors": [
+      "#ffffffff",
+      "#66b1ffff"
+    ],
     "minValue": 0,
     "maxValue": 1
   },

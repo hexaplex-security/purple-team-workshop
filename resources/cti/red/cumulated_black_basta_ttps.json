@@ -1,7 +1,7 @@
 {
   "name": "Cumulated Black Basta T's",
   "versions": {
-    "attack": "18",
+    "attack": "19",
     "navigator": "5.2.0",
     "layer": "4.5"
   },
@@ -36,10 +36,9 @@
     {
       "techniqueID": "T1047",
       "tactic": "execution",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -566,7 +565,7 @@
     },
     {
       "techniqueID": "T1006",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -576,7 +575,7 @@
     },
     {
       "techniqueID": "T1666",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -586,7 +585,7 @@
     },
     {
       "techniqueID": "T1014",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -707,10 +706,9 @@
     {
       "techniqueID": "T1543.003",
       "tactic": "persistence",
-      "score": 2,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -718,10 +716,9 @@
     {
       "techniqueID": "T1543.003",
       "tactic": "privilege-escalation",
-      "score": 2,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -758,7 +755,7 @@
     },
     {
       "techniqueID": "T1578",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -768,7 +765,7 @@
     },
     {
       "techniqueID": "T1578.002",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -778,7 +775,7 @@
     },
     {
       "techniqueID": "T1578.001",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -788,7 +785,7 @@
     },
     {
       "techniqueID": "T1578.003",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -798,7 +795,7 @@
     },
     {
       "techniqueID": "T1578.005",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -808,7 +805,7 @@
     },
     {
       "techniqueID": "T1578.004",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1258,7 +1255,7 @@
     },
     {
       "techniqueID": "T1600",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1268,7 +1265,7 @@
     },
     {
       "techniqueID": "T1600.002",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1278,7 +1275,7 @@
     },
     {
       "techniqueID": "T1600.001",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1308,7 +1305,7 @@
     },
     {
       "techniqueID": "T1564",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1318,7 +1315,7 @@
     },
     {
       "techniqueID": "T1564.013",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1328,7 +1325,7 @@
     },
     {
       "techniqueID": "T1564.008",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1338,7 +1335,7 @@
     },
     {
       "techniqueID": "T1564.014",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1348,7 +1345,7 @@
     },
     {
       "techniqueID": "T1564.012",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1358,7 +1355,7 @@
     },
     {
       "techniqueID": "T1564.005",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1368,7 +1365,7 @@
     },
     {
       "techniqueID": "T1564.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1378,7 +1375,7 @@
     },
     {
       "techniqueID": "T1564.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1388,7 +1385,7 @@
     },
     {
       "techniqueID": "T1564.003",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1398,7 +1395,7 @@
     },
     {
       "techniqueID": "T1564.011",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1408,7 +1405,7 @@
     },
     {
       "techniqueID": "T1564.004",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1418,7 +1415,7 @@
     },
     {
       "techniqueID": "T1564.010",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1428,7 +1425,7 @@
     },
     {
       "techniqueID": "T1564.009",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1438,7 +1435,7 @@
     },
     {
       "techniqueID": "T1564.006",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1448,7 +1445,7 @@
     },
     {
       "techniqueID": "T1564.007",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1569,10 +1566,9 @@
     {
       "techniqueID": "T1007",
       "tactic": "discovery",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -1630,10 +1626,9 @@
     {
       "techniqueID": "T1082",
       "tactic": "discovery",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -1911,17 +1906,16 @@
     {
       "techniqueID": "T1106",
       "tactic": "execution",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
     },
     {
       "techniqueID": "T1202",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -1961,129 +1955,7 @@
     },
     {
       "techniqueID": "T1140",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1562",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": true
-    },
-    {
-      "techniqueID": "T1562.007",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1562.008",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1562.012",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1562.004",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1562.001",
-      "tactic": "defense-evasion",
-      "score": 1,
-      "color": "",
-      "comment": "",
-      "enabled": true,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1562.002",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1562.010",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1562.003",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1562.006",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1562.009",
-      "tactic": "defense-evasion",
-      "score": 1,
-      "color": "",
-      "comment": "",
-      "enabled": true,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1562.011",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2295,10 +2167,9 @@
     {
       "techniqueID": "T1567.002",
       "tactic": "exfiltration",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -2365,7 +2236,7 @@
     },
     {
       "techniqueID": "T1036",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -2376,7 +2247,7 @@
     },
     {
       "techniqueID": "T1036.009",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2386,7 +2257,7 @@
     },
     {
       "techniqueID": "T1036.007",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2396,7 +2267,7 @@
     },
     {
       "techniqueID": "T1036.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2406,7 +2277,7 @@
     },
     {
       "techniqueID": "T1036.010",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2416,7 +2287,7 @@
     },
     {
       "techniqueID": "T1036.008",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2426,29 +2297,27 @@
     },
     {
       "techniqueID": "T1036.004",
-      "tactic": "defense-evasion",
-      "score": 1,
+      "tactic": "stealth",
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
     },
     {
       "techniqueID": "T1036.005",
-      "tactic": "defense-evasion",
-      "score": 1,
+      "tactic": "stealth",
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
     },
     {
       "techniqueID": "T1036.011",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2458,7 +2327,7 @@
     },
     {
       "techniqueID": "T1036.003",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2468,7 +2337,7 @@
     },
     {
       "techniqueID": "T1036.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2478,7 +2347,7 @@
     },
     {
       "techniqueID": "T1036.006",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2598,7 +2467,7 @@
     },
     {
       "techniqueID": "T1055",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2618,7 +2487,7 @@
     },
     {
       "techniqueID": "T1055.004",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2638,7 +2507,7 @@
     },
     {
       "techniqueID": "T1055.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2658,7 +2527,7 @@
     },
     {
       "techniqueID": "T1055.011",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2678,7 +2547,7 @@
     },
     {
       "techniqueID": "T1055.015",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2698,7 +2567,7 @@
     },
     {
       "techniqueID": "T1055.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2718,7 +2587,7 @@
     },
     {
       "techniqueID": "T1055.009",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2738,7 +2607,7 @@
     },
     {
       "techniqueID": "T1055.013",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2758,7 +2627,7 @@
     },
     {
       "techniqueID": "T1055.012",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2778,7 +2647,7 @@
     },
     {
       "techniqueID": "T1055.008",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2798,7 +2667,7 @@
     },
     {
       "techniqueID": "T1055.003",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2818,7 +2687,7 @@
     },
     {
       "techniqueID": "T1055.005",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2838,7 +2707,7 @@
     },
     {
       "techniqueID": "T1055.014",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2868,7 +2737,7 @@
     },
     {
       "techniqueID": "T1205",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2888,7 +2757,7 @@
     },
     {
       "techniqueID": "T1205.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2918,7 +2787,7 @@
     },
     {
       "techniqueID": "T1205.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2948,7 +2817,7 @@
     },
     {
       "techniqueID": "T1218",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2958,7 +2827,7 @@
     },
     {
       "techniqueID": "T1218.003",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2968,7 +2837,7 @@
     },
     {
       "techniqueID": "T1218.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2978,7 +2847,7 @@
     },
     {
       "techniqueID": "T1218.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2988,7 +2857,7 @@
     },
     {
       "techniqueID": "T1218.015",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -2998,7 +2867,7 @@
     },
     {
       "techniqueID": "T1218.004",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3008,7 +2877,7 @@
     },
     {
       "techniqueID": "T1218.013",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3018,7 +2887,7 @@
     },
     {
       "techniqueID": "T1218.014",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3028,7 +2897,7 @@
     },
     {
       "techniqueID": "T1218.005",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3038,7 +2907,7 @@
     },
     {
       "techniqueID": "T1218.007",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3048,7 +2917,7 @@
     },
     {
       "techniqueID": "T1218.008",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3058,7 +2927,7 @@
     },
     {
       "techniqueID": "T1218.009",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3068,7 +2937,7 @@
     },
     {
       "techniqueID": "T1218.010",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3078,7 +2947,7 @@
     },
     {
       "techniqueID": "T1218.011",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3088,7 +2957,7 @@
     },
     {
       "techniqueID": "T1218.012",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3098,7 +2967,7 @@
     },
     {
       "techniqueID": "T1620",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3158,16 +3027,6 @@
     },
     {
       "techniqueID": "T1550",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": true
-    },
-    {
-      "techniqueID": "T1550",
       "tactic": "lateral-movement",
       "color": "",
       "comment": "",
@@ -3178,27 +3037,7 @@
     },
     {
       "techniqueID": "T1550.001",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1550.001",
       "tactic": "lateral-movement",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1550.002",
-      "tactic": "defense-evasion",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3218,27 +3057,7 @@
     },
     {
       "techniqueID": "T1550.003",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1550.003",
       "tactic": "lateral-movement",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1550.004",
-      "tactic": "defense-evasion",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3349,10 +3168,9 @@
     {
       "techniqueID": "T1560.001",
       "tactic": "collection",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -3420,10 +3238,9 @@
     {
       "techniqueID": "T1021.002",
       "tactic": "lateral-movement",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -3520,17 +3337,7 @@
     },
     {
       "techniqueID": "T1207",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1610",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3550,11 +3357,10 @@
     },
     {
       "techniqueID": "T1112",
-      "tactic": "defense-evasion",
-      "score": 1,
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -3562,10 +3368,9 @@
     {
       "techniqueID": "T1112",
       "tactic": "persistence",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -3603,17 +3408,16 @@
     {
       "techniqueID": "T1491.001",
       "tactic": "impact",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
     },
     {
       "techniqueID": "T1535",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3683,7 +3487,7 @@
     },
     {
       "techniqueID": "T1222",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3693,18 +3497,17 @@
     },
     {
       "techniqueID": "T1222.002",
-      "tactic": "defense-evasion",
-      "score": 1,
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
     },
     {
       "techniqueID": "T1222.001",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3763,28 +3566,8 @@
       "showSubtechniques": true
     },
     {
-      "techniqueID": "T1548",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": true
-    },
-    {
       "techniqueID": "T1548.002",
       "tactic": "privilege-escalation",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1548.002",
-      "tactic": "defense-evasion",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3803,16 +3586,6 @@
       "showSubtechniques": false
     },
     {
-      "techniqueID": "T1548.004",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
       "techniqueID": "T1548.001",
       "tactic": "privilege-escalation",
       "color": "",
@@ -3823,38 +3596,8 @@
       "showSubtechniques": false
     },
     {
-      "techniqueID": "T1548.001",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
       "techniqueID": "T1548.003",
       "tactic": "privilege-escalation",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1548.003",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1548.006",
-      "tactic": "defense-evasion",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -3875,16 +3618,6 @@
     {
       "techniqueID": "T1548.005",
       "tactic": "privilege-escalation",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1548.005",
-      "tactic": "defense-evasion",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4125,7 +3858,7 @@
     {
       "techniqueID": "T1059.001",
       "tactic": "execution",
-      "score": 2,
+      "score": 1,
       "color": "",
       "comment": "",
       "enabled": true,
@@ -4166,10 +3899,9 @@
     {
       "techniqueID": "T1059.003",
       "tactic": "execution",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -4206,7 +3938,7 @@
     },
     {
       "techniqueID": "T1070",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4216,17 +3948,7 @@
     },
     {
       "techniqueID": "T1070.003",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1070.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4236,7 +3958,7 @@
     },
     {
       "techniqueID": "T1070.008",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4246,7 +3968,7 @@
     },
     {
       "techniqueID": "T1070.007",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4256,17 +3978,7 @@
     },
     {
       "techniqueID": "T1070.009",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1070.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4276,7 +3988,7 @@
     },
     {
       "techniqueID": "T1070.004",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4286,7 +3998,7 @@
     },
     {
       "techniqueID": "T1070.005",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4296,7 +4008,7 @@
     },
     {
       "techniqueID": "T1070.010",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4306,7 +4018,7 @@
     },
     {
       "techniqueID": "T1070.006",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4327,10 +4039,9 @@
     {
       "techniqueID": "T1083",
       "tactic": "discovery",
-      "score": 2,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -4377,7 +4088,7 @@
     },
     {
       "techniqueID": "T1647",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4527,7 +4238,7 @@
     },
     {
       "techniqueID": "T1542",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4557,7 +4268,7 @@
     },
     {
       "techniqueID": "T1542.003",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4577,7 +4288,7 @@
     },
     {
       "techniqueID": "T1542.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4587,7 +4298,7 @@
     },
     {
       "techniqueID": "T1542.004",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4617,7 +4328,7 @@
     },
     {
       "techniqueID": "T1542.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4627,7 +4338,7 @@
     },
     {
       "techniqueID": "T1542.005",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4647,7 +4358,7 @@
     },
     {
       "techniqueID": "T1612",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4697,11 +4408,10 @@
     },
     {
       "techniqueID": "T1497",
-      "tactic": "defense-evasion",
-      "score": 1,
+      "tactic": "stealth",
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": true
@@ -4709,21 +4419,19 @@
     {
       "techniqueID": "T1497",
       "tactic": "discovery",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": true
     },
     {
       "techniqueID": "T1497.001",
-      "tactic": "defense-evasion",
-      "score": 1,
+      "tactic": "stealth",
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -4731,17 +4439,16 @@
     {
       "techniqueID": "T1497.001",
       "tactic": "discovery",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
     },
     {
       "techniqueID": "T1497.003",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4761,7 +4468,7 @@
     },
     {
       "techniqueID": "T1497.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4911,7 +4618,7 @@
     },
     {
       "techniqueID": "T1480",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4921,7 +4628,7 @@
     },
     {
       "techniqueID": "T1480.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -4931,11 +4638,10 @@
     },
     {
       "techniqueID": "T1480.002",
-      "tactic": "defense-evasion",
-      "score": 1,
+      "tactic": "stealth",
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -4993,10 +4699,9 @@
     {
       "techniqueID": "T1204.002",
       "tactic": "execution",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -5484,10 +5189,9 @@
     {
       "techniqueID": "T1048.002",
       "tactic": "exfiltration",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -5505,10 +5209,9 @@
     {
       "techniqueID": "T1048.003",
       "tactic": "exfiltration",
-      "score": 2,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -5776,7 +5479,7 @@
     },
     {
       "techniqueID": "T1601",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -5786,7 +5489,7 @@
     },
     {
       "techniqueID": "T1601.002",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -5796,7 +5499,7 @@
     },
     {
       "techniqueID": "T1601.001",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -5826,7 +5529,7 @@
     },
     {
       "techniqueID": "T1574",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -5856,7 +5559,7 @@
     },
     {
       "techniqueID": "T1574.014",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -5886,7 +5589,7 @@
     },
     {
       "techniqueID": "T1574.012",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -5916,7 +5619,7 @@
     },
     {
       "techniqueID": "T1574.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -5946,7 +5649,7 @@
     },
     {
       "techniqueID": "T1574.004",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -5976,7 +5679,7 @@
     },
     {
       "techniqueID": "T1574.006",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6006,7 +5709,7 @@
     },
     {
       "techniqueID": "T1574.005",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6036,7 +5739,7 @@
     },
     {
       "techniqueID": "T1574.013",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6066,7 +5769,7 @@
     },
     {
       "techniqueID": "T1574.007",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6096,7 +5799,7 @@
     },
     {
       "techniqueID": "T1574.008",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6126,7 +5829,7 @@
     },
     {
       "techniqueID": "T1574.009",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6156,7 +5859,7 @@
     },
     {
       "techniqueID": "T1574.010",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6186,7 +5889,7 @@
     },
     {
       "techniqueID": "T1574.011",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6196,7 +5899,7 @@
     },
     {
       "techniqueID": "T1078",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "score": 1,
       "color": "",
       "comment": "",
@@ -6240,7 +5943,7 @@
     },
     {
       "techniqueID": "T1078.004",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6280,7 +5983,7 @@
     },
     {
       "techniqueID": "T1078.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6320,7 +6023,7 @@
     },
     {
       "techniqueID": "T1078.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6360,7 +6063,7 @@
     },
     {
       "techniqueID": "T1078.003",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6431,7 +6134,7 @@
     },
     {
       "techniqueID": "T1027",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6441,18 +6144,17 @@
     },
     {
       "techniqueID": "T1027.001",
-      "tactic": "defense-evasion",
-      "score": 1,
+      "tactic": "stealth",
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
     },
     {
       "techniqueID": "T1027.010",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6462,7 +6164,7 @@
     },
     {
       "techniqueID": "T1027.004",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6472,7 +6174,7 @@
     },
     {
       "techniqueID": "T1027.015",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6482,7 +6184,7 @@
     },
     {
       "techniqueID": "T1027.007",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6492,7 +6194,7 @@
     },
     {
       "techniqueID": "T1027.009",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6502,7 +6204,7 @@
     },
     {
       "techniqueID": "T1027.013",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6512,7 +6214,7 @@
     },
     {
       "techniqueID": "T1027.011",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6522,7 +6224,7 @@
     },
     {
       "techniqueID": "T1027.006",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6532,7 +6234,7 @@
     },
     {
       "techniqueID": "T1027.005",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6542,7 +6244,7 @@
     },
     {
       "techniqueID": "T1027.016",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6552,7 +6254,7 @@
     },
     {
       "techniqueID": "T1027.012",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6562,7 +6264,7 @@
     },
     {
       "techniqueID": "T1027.014",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6572,7 +6274,7 @@
     },
     {
       "techniqueID": "T1027.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6582,7 +6284,7 @@
     },
     {
       "techniqueID": "T1027.003",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6592,7 +6294,7 @@
     },
     {
       "techniqueID": "T1027.008",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6602,7 +6304,7 @@
     },
     {
       "techniqueID": "T1027.017",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -6992,7 +6694,7 @@
     },
     {
       "techniqueID": "T1599",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7002,7 +6704,7 @@
     },
     {
       "techniqueID": "T1599.001",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7013,27 +6715,6 @@
     {
       "techniqueID": "T1486",
       "tactic": "impact",
-      "score": 2,
-      "color": "",
-      "comment": "",
-      "enabled": true,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1553",
-      "tactic": "defense-evasion",
-      "color": "",
-      "comment": "",
-      "enabled": false,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": true
-    },
-    {
-      "techniqueID": "T1553.002",
-      "tactic": "defense-evasion",
       "score": 1,
       "color": "",
       "comment": "",
@@ -7043,8 +6724,28 @@
       "showSubtechniques": false
     },
     {
+      "techniqueID": "T1553",
+      "tactic": "defense-impairment",
+      "color": "",
+      "comment": "",
+      "enabled": false,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1553.002",
+      "tactic": "defense-impairment",
+      "color": "",
+      "comment": "",
+      "enabled": false,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": false
+    },
+    {
       "techniqueID": "T1553.006",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7054,7 +6755,7 @@
     },
     {
       "techniqueID": "T1553.001",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7064,7 +6765,7 @@
     },
     {
       "techniqueID": "T1553.004",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7074,7 +6775,7 @@
     },
     {
       "techniqueID": "T1553.005",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7084,7 +6785,7 @@
     },
     {
       "techniqueID": "T1553.003",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7245,10 +6946,9 @@
     {
       "techniqueID": "T1570",
       "tactic": "lateral-movement",
-      "score": 2,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -7286,10 +6986,9 @@
     {
       "techniqueID": "T1030",
       "tactic": "exfiltration",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -7366,11 +7065,10 @@
     },
     {
       "techniqueID": "T1197",
-      "tactic": "defense-evasion",
-      "score": 1,
+      "tactic": "stealth",
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -7378,17 +7076,6 @@
     {
       "techniqueID": "T1197",
       "tactic": "persistence",
-      "score": 1,
-      "color": "",
-      "comment": "",
-      "enabled": true,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1656",
-      "tactic": "defense-evasion",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7669,10 +7356,9 @@
     {
       "techniqueID": "T1569.002",
       "tactic": "execution",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -7919,7 +7605,7 @@
     },
     {
       "techniqueID": "T1221",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7929,7 +7615,7 @@
     },
     {
       "techniqueID": "T1134",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7949,7 +7635,7 @@
     },
     {
       "techniqueID": "T1134.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7969,7 +7655,7 @@
     },
     {
       "techniqueID": "T1134.003",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -7989,7 +7675,7 @@
     },
     {
       "techniqueID": "T1134.004",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8009,7 +7695,7 @@
     },
     {
       "techniqueID": "T1134.005",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8029,7 +7715,7 @@
     },
     {
       "techniqueID": "T1134.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8090,17 +7776,6 @@
     {
       "techniqueID": "T1136.002",
       "tactic": "persistence",
-      "score": 1,
-      "color": "",
-      "comment": "",
-      "enabled": true,
-      "metadata": [],
-      "links": [],
-      "showSubtechniques": false
-    },
-    {
-      "techniqueID": "T1136.001",
-      "tactic": "persistence",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8109,8 +7784,8 @@
       "showSubtechniques": false
     },
     {
-      "techniqueID": "T1672",
-      "tactic": "defense-evasion",
+      "techniqueID": "T1136.001",
+      "tactic": "persistence",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8131,10 +7806,9 @@
     {
       "techniqueID": "T1018",
       "tactic": "discovery",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -8181,11 +7855,10 @@
     },
     {
       "techniqueID": "T1622",
-      "tactic": "defense-evasion",
-      "score": 1,
+      "tactic": "stealth",
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -8193,10 +7866,9 @@
     {
       "techniqueID": "T1622",
       "tactic": "discovery",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -8224,10 +7896,9 @@
     {
       "techniqueID": "T1105",
       "tactic": "command-and-control",
-      "score": 1,
       "color": "",
       "comment": "",
-      "enabled": true,
+      "enabled": false,
       "metadata": [],
       "links": [],
       "showSubtechniques": false
@@ -8264,7 +7935,7 @@
     },
     {
       "techniqueID": "T1484",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8284,7 +7955,7 @@
     },
     {
       "techniqueID": "T1484.001",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8304,7 +7975,7 @@
     },
     {
       "techniqueID": "T1484.002",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8324,7 +7995,7 @@
     },
     {
       "techniqueID": "T1220",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8414,7 +8085,7 @@
     },
     {
       "techniqueID": "T1556",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8444,7 +8115,7 @@
     },
     {
       "techniqueID": "T1556.009",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8474,7 +8145,7 @@
     },
     {
       "techniqueID": "T1556.001",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8504,7 +8175,7 @@
     },
     {
       "techniqueID": "T1556.007",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8534,7 +8205,7 @@
     },
     {
       "techniqueID": "T1556.006",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8564,7 +8235,7 @@
     },
     {
       "techniqueID": "T1556.004",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8594,7 +8265,7 @@
     },
     {
       "techniqueID": "T1556.008",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8624,7 +8295,7 @@
     },
     {
       "techniqueID": "T1556.002",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8654,7 +8325,7 @@
     },
     {
       "techniqueID": "T1556.003",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8684,7 +8355,7 @@
     },
     {
       "techniqueID": "T1556.005",
-      "tactic": "defense-evasion",
+      "tactic": "defense-impairment",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8715,7 +8386,7 @@
     {
       "techniqueID": "T1490",
       "tactic": "impact",
-      "score": 2,
+      "score": 1,
       "color": "",
       "comment": "",
       "enabled": true,
@@ -8725,7 +8396,7 @@
     },
     {
       "techniqueID": "T1216",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8735,7 +8406,7 @@
     },
     {
       "techniqueID": "T1216.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8745,7 +8416,7 @@
     },
     {
       "techniqueID": "T1216.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8765,7 +8436,7 @@
     },
     {
       "techniqueID": "T1211",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8775,7 +8446,7 @@
     },
     {
       "techniqueID": "T1127",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8785,7 +8456,7 @@
     },
     {
       "techniqueID": "T1127.002",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8795,7 +8466,7 @@
     },
     {
       "techniqueID": "T1127.003",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8805,7 +8476,7 @@
     },
     {
       "techniqueID": "T1127.001",
-      "tactic": "defense-evasion",
+      "tactic": "stealth",
       "color": "",
       "comment": "",
       "enabled": false,
@@ -8825,7 +8496,11 @@
     }
   ],
   "gradient": {
-    "colors": ["#ffed66ff", "#ff6666ff", "#7c43c8ff"],
+    "colors": [
+      "#ffed66ff",
+      "#ff6666ff",
+      "#7c43c8ff"
+    ],
     "minValue": 1,
     "maxValue": 5
   },

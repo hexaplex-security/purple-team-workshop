@@ -1,10 +1,17 @@
 {
-  "description": "Enterprise techniques used by Mimikatz, ATT&CK software S0002 (v1.9)",
+  "description": "Enterprise techniques used by Mimikatz, ATT&CK software S0002 (v1.11)",
   "name": "Mimikatz (S0002)",
   "domain": "enterprise-attack",
-  "versions": { "layer": "4.5", "attack": "18", "navigator": "5.2.0" },
+  "versions": {
+    "layer": "4.5",
+    "attack": "19",
+    "navigator": "5.3.2"
+  },
   "techniques": [
-    { "techniqueID": "T1134", "showSubtechniques": true },
+    {
+      "techniqueID": "T1134",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1134.005",
       "comment": "[Mimikatz](https://attack.mitre.org/software/S0002)'s MISC::AddSid module can append any SID or user/group account to a user's SID-History. [Mimikatz](https://attack.mitre.org/software/S0002) also utilizes [SID-History Injection](https://attack.mitre.org/techniques/T1134/005) to expand the scope of other components such as generated Kerberos Golden Tickets and DCSync beyond a single domain.(Citation: Adsecurity Mimikatz Guide)(Citation: AdSecurity Kerberos GT Aug 2015)",
@@ -19,7 +26,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1547", "showSubtechniques": true },
+    {
+      "techniqueID": "T1547",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1547.005",
       "comment": "The [Mimikatz](https://attack.mitre.org/software/S0002) credential dumper contains an implementation of an SSP.(Citation: Deply Mimikatz)",
@@ -48,7 +58,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1003", "showSubtechniques": true },
+    {
+      "techniqueID": "T1003",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1003.001",
       "comment": "[Mimikatz](https://attack.mitre.org/software/S0002) performs credential dumping to obtain account and password information useful in gaining access to additional systems and enterprise network resources. It contains functionality to acquire information about credentials in many ways, including from the LSASS Memory.(Citation: Deply Mimikatz)(Citation: GitHub Mimikatz lsadump Module)(Citation: Directory Services Internals DPAPI Backup Keys Oct 2015)(Citation: NCSC Joint Report Public Tools)",
@@ -91,7 +104,10 @@
       "color": "#66b1ff",
       "showSubtechniques": false
     },
-    { "techniqueID": "T1558", "showSubtechniques": true },
+    {
+      "techniqueID": "T1558",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1558.001",
       "comment": "[Mimikatz](https://attack.mitre.org/software/S0002)'s kerberos module can create golden tickets.(Citation: GitHub Mimikatz kerberos Module)(Citation: Cobalt Strike Manual 4.3 November 2020)",
@@ -106,7 +122,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1552", "showSubtechniques": true },
+    {
+      "techniqueID": "T1552",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1552.004",
       "comment": "[Mimikatz](https://attack.mitre.org/software/S0002)'s CRYPTO::Extract module can extract keys by interacting with Windows cryptographic application programming interface (API) functions.(Citation: Adsecurity Mimikatz Guide)",
@@ -114,7 +133,10 @@
       "color": "#66b1ff",
       "showSubtechniques": true
     },
-    { "techniqueID": "T1550", "showSubtechniques": true },
+    {
+      "techniqueID": "T1550",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1550.002",
       "comment": "[Mimikatz](https://attack.mitre.org/software/S0002)'s SEKURLSA::Pth module can impersonate a user, with only a password hash, to execute arbitrary commands.(Citation: Adsecurity Mimikatz Guide)(Citation: NCSC Joint Report Public Tools)(Citation: Cobalt Strike Manual 4.3 November 2020)",
@@ -131,9 +153,17 @@
     }
   ],
   "gradient": {
-    "colors": ["#ffffff", "#66b1ff"],
+    "colors": [
+      "#ffffff",
+      "#66b1ff"
+    ],
     "minValue": 0,
     "maxValue": 1
   },
-  "legendItems": [{ "label": "used by Mimikatz", "color": "#66b1ff" }]
+  "legendItems": [
+    {
+      "label": "used by Mimikatz",
+      "color": "#66b1ff"
+    }
+  ]
 }

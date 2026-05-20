@@ -1,10 +1,17 @@
 {
-  "description": "Enterprise techniques mitigated by Antivirus/Antimalware, ATT&CK mitigation M1049 (v1.1)",
+  "description": "Enterprise techniques mitigated by Antivirus/Antimalware, ATT&CK mitigation M1049 (v1.2)",
   "name": "Antivirus/Antimalware (M1049)",
   "domain": "enterprise-attack",
-  "versions": { "layer": "4.5", "attack": "18", "navigator": "5.2.0" },
+  "versions": {
+    "layer": "4.5",
+    "attack": "19",
+    "navigator": "5.3.2"
+  },
   "techniques": [
-    { "techniqueID": "T1547", "showSubtechniques": true },
+    {
+      "techniqueID": "T1547",
+      "showSubtechniques": true
+    },
     {
       "techniqueID": "T1547.006",
       "comment": "Common tools for detecting Linux rootkits include: rkhunter (Citation: SourceForge rkhunter), chrootkit (Citation: Chkrootkit Main), although rootkits may be designed to evade certain detection tools.",
@@ -114,6 +121,20 @@
       "showSubtechniques": true
     },
     {
+      "techniqueID": "T1027.015",
+      "comment": "Anti-virus can be used to automatically detect and quarantine suspicious files. Consider anti-virus products capable of unpacking and inspecting compressed files recursively, as well as analyzing SFX archives. ",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1027.016",
+      "comment": "Anti-virus can be used to automatically detect and quarantine suspicious files. Behavior-based detections, rather than reliance on static code analysis, may help to identify malicious files that rely heavily on junk code.(Citation: ReasonLabs)",
+      "score": 1,
+      "color": "#66b1ff",
+      "showSubtechniques": true
+    },
+    {
       "techniqueID": "T1566",
       "comment": "Anti-virus can automatically quarantine suspicious files.",
       "score": 1,
@@ -149,11 +170,17 @@
     }
   ],
   "gradient": {
-    "colors": ["#ffffff", "#66b1ff"],
+    "colors": [
+      "#ffffff",
+      "#66b1ff"
+    ],
     "minValue": 0,
     "maxValue": 1
   },
   "legendItems": [
-    { "label": "mitigated by Antivirus/Antimalware", "color": "#66b1ff" }
+    {
+      "label": "mitigated by Antivirus/Antimalware",
+      "color": "#66b1ff"
+    }
   ]
 }

