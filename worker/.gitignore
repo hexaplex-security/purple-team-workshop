@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+.dev.vars
+*.links.csv
+*.attendees.sql
+roster*.csv
+wrangler.e2e.jsonc

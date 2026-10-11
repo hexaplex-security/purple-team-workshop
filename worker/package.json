@@ -1,0 +1,14 @@
+{
+  "name": "workshop-gate",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test test/*.test.mjs",
+    "invites": "node scripts/invites.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.149.0"
+  }
+}
