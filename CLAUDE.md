@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a **documentation-only repository** for a hands-on Purple Team Workshop run by hexaplex-security. There is no build system, no runnable code, no tests, and no CI/CD. All content is Markdown, PDFs, images, and MITRE ATT&CK Navigator JSON layers.
+This is a **documentation repository** for a hands-on Purple Team Workshop run by hexaplex-security. Workshop content is Markdown, PDFs, images, and MITRE ATT&CK Navigator JSON layers. The only code is `worker/`, the Cloudflare Worker that gates the paid site at workshop.hexaplex.ch and logs attendee access (see `worker/README.md`; tests: `cd worker && npm test`).
 
 The workshop simulates **Black Basta ransomware attacks** and validates defensive coverage using a hosted Sentinel Attack Range (SAR) environment in Azure. This repo ships only the workshop content — the lab infrastructure is external.
 
