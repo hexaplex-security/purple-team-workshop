@@ -1,0 +1,13 @@
+{{- /*
+  Link that opens one or more ATT&CK layers in the self-hosted Navigator (/navigator/).
+  Layer paths are relative to the current workshop's root (/workshops/<slug>/), so the
+  fetch is same-origin, carries the attendee cookie and is logged by the gate.
+
+  {{< navigator layers="resources/cti/purple/a.json,resources/cti/purple/b.json" >}}Open in Navigator{{< /navigator >}}
+*/ -}}
+{{- $root := index (findRE `^/workshops/[^/]+/` .Page.RelPermalink 1) 0 | default "/" -}}
+{{- $parts := slice -}}
+{{- range split (.Get "layers") "," -}}
+  {{- $parts = $parts | append (printf "layerURL=%s" (querify "x" (printf "%s%s" $root (trim . " ")) | strings.TrimPrefix "x=")) -}}
+{{- end -}}
+<a href="{{ relURL "navigator/" }}#{{ delimit $parts "&" | safeURL }}" target="_blank" rel="noopener">{{ .Inner | default "Open in ATT&CK Navigator" }}</a>
