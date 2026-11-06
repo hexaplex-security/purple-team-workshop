@@ -13,7 +13,10 @@
     // Default-deny: everything goes through the gate except theme CSS/JS/fonts.
     // Relearn writes the full-text search index (searchindex.*.js) at the site root,
     // not under /js/, so it stays gated.
-    "run_worker_first": ["/*", "!/css/*", "!/js/*", "!/fonts/*"]
+    // /navigator/ is the self-hosted ATT&CK Navigator app (public MITRE code). It is
+    // served without auth or logging, so it must not bundle workshop layers: those
+    // stay under /workshops/<slug>/ and are gated and logged when Navigator fetches them.
+    "run_worker_first": ["/*", "!/css/*", "!/js/*", "!/fonts/*", "!/navigator/*"]
   },
   "d1_databases": [
     {

@@ -2,7 +2,7 @@
 
 A Cloudflare Worker that serves the Hugo site at `workshop.hexaplex.ch` behind personal invite links and logs every gated request to D1.
 
-- Everything is gated except theme `/css/*`, `/js/*` and `/fonts/*` (see `run_worker_first` in `wrangler.jsonc`). This covers Relearn's full-text `searchindex.*.js` at the site root and the `*.print.html` views.
+- Everything is gated except theme `/css/*`, `/js/*`, `/fonts/*` and the self-hosted ATT&CK Navigator app under `/navigator/*` (see `run_worker_first` in `wrangler.jsonc`). Those paths skip the Worker, so they cost no requests and write no log rows. Navigator must not bundle workshop layers; it loads them from `/workshops/<slug>/`, where they are gated and logged. This covers Relearn's full-text `searchindex.*.js` at the site root and the `*.print.html` views.
 - `/workshops/<slug>/...` is only served to tokens that include `<slug>`. Site-wide paths (home, search index, root print view, 404) need any valid token.
 - `/join?t=<token>` sets the session cookie and redirects. `/logout` clears it.
 - Revoke an attendee by inserting into `revoked`. It takes effect on their next request.
